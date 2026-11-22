@@ -1,0 +1,264 @@
+{
+ "days": [
+  {
+   "id": "d1",
+   "date": "11/14（六）",
+   "short": "11/14",
+   "video": "a68KpkrjF9A",
+   "theme": "以社區醫療為基礎的整合照顧／醫療與社區服務協作",
+   "sessions": [
+    {
+     "id": "1-0",
+     "slot": "09:00–09:30",
+     "title": "開幕式：貴賓致詞、大合照",
+     "role": "",
+     "speaker": "",
+     "org": "",
+     "orgType": "主辦單位"
+    },
+    {
+     "id": "1-1",
+     "slot": "09:30–10:20",
+     "title": "專題演講：以社區醫療為基礎的整合照顧落實的現況與展望",
+     "role": "主講",
+     "speaker": "石崇良 部長",
+     "org": "衛生福利部",
+     "orgType": "政府機關",
+     "host": "台灣社會福利總盟 陳節如理事長"
+    },
+    {
+     "id": "1-2",
+     "slot": "10:20–11:20",
+     "title": "社區整合照護藍圖",
+     "role": "與談",
+     "speaker": "黃勝堅 前總院長",
+     "org": "臺北市立聯合醫院",
+     "orgType": "醫院",
+     "handout": "1hg_z2KJcids7I9chnPwUKluCo0ZnHd2U"
+    },
+    {
+     "id": "1-3",
+     "slot": "10:20–11:20",
+     "title": "從居家醫療到社區整合照顧",
+     "role": "與談",
+     "speaker": "林宏榮 院長",
+     "org": "奇美醫院",
+     "orgType": "醫院",
+     "handout": "1fl6D3h_b2LgwMdoW2rPPXo8hjnQc1Tx0"
+    },
+    {
+     "id": "1-4",
+     "slot": "11:20–12:00",
+     "title": "上午綜合座談",
+     "role": "座談",
+     "speaker": "",
+     "org": "",
+     "orgType": ""
+    },
+    {
+     "id": "2-0",
+     "slot": "13:00",
+     "title": "主題：檢視醫療與社區服務的協作現況與建議",
+     "role": "主持",
+     "speaker": "林右鈞 組長",
+     "org": "衛福部中央健康保險署醫務管理組",
+     "orgType": "政府機關"
+    },
+    {
+     "id": "2-1",
+     "slot": "13:00–15:20",
+     "title": "醫療 X 社區協作機制",
+     "role": "與談",
+     "speaker": "黎家銘 主任",
+     "org": "台大醫院北護分院社區醫療暨長期照護部",
+     "orgType": "醫院",
+     "handout": "1kDA1bguTnC_3HV9Bc3uB6lBSsU_pwEKR"
+    },
+    {
+     "id": "2-2",
+     "slot": "13:00–15:20",
+     "title": "偏鄉基層診所的醫療與社區協作",
+     "role": "與談",
+     "speaker": "鍾泓翊 主任",
+     "org": "池上好診所",
+     "orgType": "基層診所",
+     "handout": "1RP3TiTnvS37jHO2RPnDPYAeUXG7EMf4c"
+    },
+    {
+     "id": "2-3",
+     "slot": "13:00–15:20",
+     "title": "醫療與社區協作：居家護理的角色",
+     "role": "與談",
+     "speaker": "邱青萸 理事長",
+     "org": "台灣居家護理暨服務聯盟總會",
+     "orgType": "專業團體",
+     "handout": "1xt7fVK0-WnwmFRT001iYfvVVCu34jgOC"
+    },
+    {
+     "id": "2-4",
+     "slot": "13:00–15:20",
+     "title": "醫療與社區服務協作",
+     "role": "與談",
+     "speaker": "黎世宏 執行長",
+     "org": "中華聖母社會福利慈善事業基金會",
+     "orgType": "社福團體",
+     "handout": "1kZjAwIBp6kImSUV7F_ky_UCUljaVtKXq"
+    },
+    {
+     "id": "2-5",
+     "slot": "13:00–15:20",
+     "title": "醫照共案協作",
+     "role": "與談",
+     "speaker": "張竣傑 副執行長",
+     "org": "一粒麥子社會福利慈善事業基金會",
+     "orgType": "社福團體",
+     "handout": "1cVOjQSHg_bvL_9fleD4mziS-BJPp6N4W"
+    },
+    {
+     "id": "2-6",
+     "slot": "15:20–16:00",
+     "title": "下午綜合座談",
+     "role": "座談",
+     "speaker": "",
+     "org": "",
+     "orgType": ""
+    }
+   ]
+  },
+  {
+   "id": "d2",
+   "date": "11/15（日）",
+   "short": "11/15",
+   "video": "PiKwuQceCC0",
+   "theme": "健保復健病房試辦計畫／醫療照顧需求重症兒童",
+   "sessions": [
+    {
+     "id": "3-0",
+     "slot": "09:00",
+     "title": "主題：全民健康保險復健病房試辦計畫執行分享",
+     "role": "主持",
+     "speaker": "馬海霞 副理事長",
+     "org": "台灣社會福利總盟",
+     "orgType": "主辦單位"
+    },
+    {
+     "id": "3-1",
+     "slot": "09:00–09:30",
+     "title": "專題演講：全民健康保險復健病房試辦計畫",
+     "role": "主講",
+     "speaker": "陳亮妤 署長",
+     "org": "衛福部中央健康保險署",
+     "orgType": "政府機關"
+    },
+    {
+     "id": "3-2",
+     "slot": "09:30–11:20",
+     "title": "復健病房試辦計畫分享",
+     "role": "與談",
+     "speaker": "陳良城 副院長",
+     "org": "臺北市立聯合醫院陽明院區",
+     "orgType": "醫院",
+     "handout": "1tt-3CRZ0stDfi0uTU8R5NWNyGo-GBbpD"
+    },
+    {
+     "id": "3-3",
+     "slot": "09:30–11:20",
+     "title": "全民健康保險復健病房試辦計畫",
+     "role": "與談",
+     "speaker": "陳靖倫 主任",
+     "org": "桃園長庚紀念醫院復健科",
+     "orgType": "醫院",
+     "handout": "1dtwxiK7GHgxcbnM3tJ3iDFST1QqwzWnR"
+    },
+    {
+     "id": "3-4",
+     "slot": "09:30–11:20",
+     "title": "台中醫院復健病房經驗",
+     "role": "與談",
+     "speaker": "蔡明妙 主任",
+     "org": "衛福部臺中醫院復健科",
+     "orgType": "醫院",
+     "handout": "1g_evxMV7Sgr3L8TCczwrBCC6Tt82HnCx"
+    },
+    {
+     "id": "3-5",
+     "slot": "09:30–11:20",
+     "title": "復健病房試辦計畫分享",
+     "role": "與談",
+     "speaker": "郭鐘添 院長",
+     "org": "員郭醫院",
+     "orgType": "醫院",
+     "handout": "1wX7dM6miU15UWO5bICk5a9tGfq83TwtF"
+    },
+    {
+     "id": "3-6",
+     "slot": "11:20–12:00",
+     "title": "上午綜合座談",
+     "role": "座談",
+     "speaker": "",
+     "org": "",
+     "orgType": ""
+    },
+    {
+     "id": "4-0",
+     "slot": "13:00",
+     "title": "主題：台灣醫療照顧需求重症兒童的現況與展望",
+     "role": "主持",
+     "speaker": "孫一信 秘書長",
+     "org": "台灣社會福利總盟",
+     "orgType": "主辦單位"
+    },
+    {
+     "id": "4-1",
+     "slot": "13:00–15:30",
+     "title": "台灣醫療照顧需求重症兒童的現況與展望",
+     "role": "主講",
+     "speaker": "呂立 理事長",
+     "org": "台灣重症兒360發展協會",
+     "orgType": "社福團體",
+     "handout": "16AqstuiXY_K772X2NzDBBW1NiNe9cHv5"
+    },
+    {
+     "id": "4-2",
+     "slot": "13:00–15:30",
+     "title": "他山之石：日本障礙兒照顧與居家醫療的發展",
+     "role": "與談",
+     "speaker": "楊千慧 醫師",
+     "org": "育睿診所",
+     "orgType": "基層診所",
+     "handout": "1hAqNB7rhMCYoPxnOrhvzssdk4T0uLMSM"
+    },
+    {
+     "id": "4-3",
+     "slot": "13:00–15:30",
+     "title": "重症兒就學照顧",
+     "role": "與談",
+     "speaker": "楊玲玲 秘書長",
+     "org": "台灣重症兒360發展協會",
+     "orgType": "社福團體",
+     "handout": "1Uaphp4jwIU44SxD28Y3pESLaWOSK4YL1"
+    },
+    {
+     "id": "4-4",
+     "slot": "13:00–15:30",
+     "title": "童羽之家分享",
+     "role": "與談",
+     "speaker": "黃啟南 主任",
+     "org": "臺北市立聯合醫院和平婦幼院區兒童保健科",
+     "orgType": "醫院",
+     "handout": "1BKahNajqvMPT5hZpa_aShSPbjTd2KF3i"
+    },
+    {
+     "id": "4-5",
+     "slot": "15:40–16:30",
+     "title": "綜合座談：立法委員、衛福部、教育部與談",
+     "role": "座談",
+     "speaker": "王正旭委員／石崇良部長／孫敏儀組長",
+     "org": "立法院、衛生福利部、教育部國教署",
+     "orgType": "立法院",
+     "host": "陳節如理事長"
+    }
+   ]
+  }
+ ]
+}

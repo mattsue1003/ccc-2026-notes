@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>社區整合照顧研討會筆記</title>
+<meta name="description" content="2026 台灣社區整合照顧研討會（11/14–15）逐字稿、時間軸、重點整理，可檢索與篩選政府政策方向與各單位實務策略。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f5f3ee; --panel:#fffdf9; --ink:#23262a; --muted:#646b73; --line:#e2ddd3;
+  --accent:#b4482f; --accent-soft:#f6e3dc; --d2:#2f6f8f; --d2-soft:#dceaf1;
+  --chip:#efebe4; --now:#fff3c9; --shadow:0 1px 2px rgba(0,0,0,.05),0 4px 14px rgba(0,0,0,.05);
+  --k-policy:#7a3fa0; --k-policy-bg:#efe4f6; --k-strategy:#1f7a4d; --k-strategy-bg:#dff1e7;
+  --k-data:#2f5f9a; --k-data-bg:#e0eaf6; --k-issue:#a25b0c; --k-issue-bg:#f8ead4; --k-advice:#a8344d; --k-advice-bg:#f7e0e5;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#16181b; --panel:#1e2125; --ink:#e7e8ea; --muted:#9aa1a8; --line:#31363c;
+  --accent:#f08a6c; --accent-soft:#3d2620; --d2:#7cc0e0; --d2-soft:#1d3240;
+  --chip:#272b30; --now:#3a3420; --shadow:none;
+  --k-policy:#cfa2ea; --k-policy-bg:#352645; --k-strategy:#7fd6a6; --k-strategy-bg:#1d3a2b;
+  --k-data:#94bdf0; --k-data-bg:#1f2e44; --k-issue:#f0c07a; --k-issue-bg:#3d2f1a; --k-advice:#f39aae; --k-advice-bg:#43222b;}}
+:root[data-theme="dark"]{
+  --bg:#16181b; --panel:#1e2125; --ink:#e7e8ea; --muted:#9aa1a8; --line:#31363c;
+  --accent:#f08a6c; --accent-soft:#3d2620; --d2:#7cc0e0; --d2-soft:#1d3240;
+  --chip:#272b30; --now:#3a3420; --shadow:none;
+  --k-policy:#cfa2ea; --k-policy-bg:#352645; --k-strategy:#7fd6a6; --k-strategy-bg:#1d3a2b;
+  --k-data:#94bdf0; --k-data-bg:#1f2e44; --k-issue:#f0c07a; --k-issue-bg:#3d2f1a; --k-advice:#f39aae; --k-advice-bg:#43222b;}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.75 "Noto Sans TC",system-ui,-apple-system,"PingFang TC",sans-serif}
+a{color:var(--accent)}
+button{font:inherit;color:inherit}
+.wrap{max-width:1320px;margin:0 auto;padding:0 16px}
+header{padding:22px 0 6px}
+header h1{margin:0;font-size:1.45rem;letter-spacing:.02em;line-height:1.4}
+header p{margin:4px 0 0;color:var(--muted);font-size:.9rem}
+.toolbar{display:flex;gap:8px;align-items:center;margin:14px 0 4px;flex-wrap:wrap}
+.search{flex:1 1 280px;min-width:0}
+.search input{width:100%;padding:10px 14px;border:1px solid var(--line);border-radius:10px;background:var(--panel);color:var(--ink);font:inherit}
+input:focus,select:focus{outline:2px solid var(--accent);outline-offset:1px}
+select{padding:9px 10px;border:1px solid var(--line);border-radius:10px;background:var(--panel);color:var(--ink);font:inherit;font-size:.9rem;max-width:100%}
+.fnote{font-size:.8rem;color:var(--muted);margin:2px 0 10px;min-height:1.2em}
+.fnote button{border:0;background:none;color:var(--accent);cursor:pointer;padding:0 4px;text-decoration:underline}
+
+.days{display:flex;gap:8px;margin:6px 0 14px}
+.days button{flex:1;text-align:left;border:1px solid var(--line);background:var(--panel);border-radius:12px;padding:10px 14px;cursor:pointer;box-shadow:var(--shadow);min-width:0}
+.days button b{display:block;font-size:.98rem}
+.days button span{display:block;font-size:.8rem;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.days button[aria-current="true"]{border-color:var(--accent);outline:2px solid var(--accent)}
+.days button.d2[aria-current="true"]{border-color:var(--d2);outline-color:var(--d2)}
+
+.layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:22px;align-items:start;padding-bottom:60px}
+.left{position:sticky;top:12px}
+.player{position:relative;aspect-ratio:16/9;background:#000;border-radius:12px;overflow:hidden}
+.player iframe,.player>div{position:absolute;inset:0;width:100%;height:100%;border:0}
+.nowbar{display:flex;justify-content:space-between;gap:8px;font-size:.82rem;color:var(--muted);margin:8px 2px 0}
+.yt{font-size:.78rem;color:var(--muted);text-decoration:none;white-space:nowrap}
+.yt:hover{color:var(--accent);text-decoration:underline}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin-top:12px;box-shadow:var(--shadow)}
+.panel h2{font-size:1rem;margin:0 0 6px}
+.cur h3{margin:0;font-size:1.08rem;line-height:1.45}
+.cur .who{font-size:.85rem;color:var(--muted);margin:2px 0 6px}
+.cur p{margin:6px 0 0;font-size:.94rem}
+.handout{font-size:.82rem}
+
+.tabs{display:flex;gap:2px;border-bottom:1px solid var(--line);margin-bottom:12px;position:sticky;top:0;background:var(--bg);z-index:3;padding-top:4px;overflow-x:auto;scrollbar-width:none}
+.tabs button{flex:none;border:0;background:none;padding:8px 12px;cursor:pointer;color:var(--muted);border-bottom:3px solid transparent;font-weight:500}
+.tabs button[aria-selected="true"]{color:var(--ink);border-color:var(--accent)}
+
+.ts{flex:none;display:inline-flex;align-items:center;gap:4px;padding:0 9px;border-radius:99px;border:1px solid transparent;background:var(--accent-soft);color:var(--accent);font-weight:700;font-size:.78rem;font-variant-numeric:tabular-nums;cursor:pointer;line-height:1.9}
+.ts.d2{background:var(--d2-soft);color:var(--d2)}
+.ts:hover{border-color:currentColor}
+.ts::before{content:"";width:0;height:0;border-left:6px solid currentColor;border-top:4px solid transparent;border-bottom:4px solid transparent}
+
+.sess{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:12px 16px;margin-bottom:10px;scroll-margin-top:60px;transition:background .3s}
+.sess.now{background:var(--now)}
+.sess .hd{display:flex;gap:10px;align-items:flex-start}
+.sess .hd .ti{flex:1;min-width:0}
+.sess h3{margin:0;font-size:1rem;line-height:1.5}
+.sess .who{font-size:.84rem;color:var(--muted)}
+.sess p{margin:6px 0 0;font-size:.93rem}
+.sess details{margin-top:6px}
+.sess summary{cursor:pointer;font-size:.86rem;color:var(--accent);font-weight:500}
+.sess .slot{font-size:.74rem;color:var(--muted);font-variant-numeric:tabular-nums}
+.badge{display:inline-block;font-size:.7rem;font-weight:700;padding:0 7px;border-radius:99px;background:var(--chip);color:var(--muted);margin-right:4px;line-height:1.8;vertical-align:1px}
+
+.pts{list-style:none;padding:0;margin:6px 0 0}
+.pts li{display:flex;gap:10px;align-items:flex-start;padding:7px 0;border-top:1px dashed var(--line)}
+.pts li:first-child{border-top:0}
+.pts .bd{flex:1;min-width:0}
+.pts .tx{font-size:.94rem}
+.pts .mt{font-size:.76rem;color:var(--muted);margin-top:2px}
+.kind{display:inline-block;font-size:.7rem;font-weight:700;padding:0 7px;border-radius:99px;margin-right:6px;line-height:1.8;vertical-align:1px}
+.k-政策{background:var(--k-policy-bg);color:var(--k-policy)}
+.k-策略{background:var(--k-strategy-bg);color:var(--k-strategy)}
+.k-數據{background:var(--k-data-bg);color:var(--k-data)}
+.k-挑戰{background:var(--k-issue-bg);color:var(--k-issue)}
+.k-建議{background:var(--k-advice-bg);color:var(--k-advice)}
+.tag{display:inline-block;font-size:.72rem;color:var(--muted);border:1px solid var(--line);border-radius:99px;padding:0 7px;margin:2px 4px 0 0;cursor:pointer;background:none;line-height:1.7}
+.tag:hover{color:var(--accent);border-color:var(--accent)}
+
+.grp{margin-bottom:16px}
+.grp>h3{font-size:1rem;margin:0 0 6px;display:flex;gap:8px;align-items:baseline}
+.grp>h3 small{color:var(--muted);font-weight:400;font-size:.8rem}
+.box{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:6px 16px}
+.intro{font-size:.88rem;color:var(--muted);margin:0 0 12px}
+.seg{display:flex;gap:6px;margin:0 0 12px;flex-wrap:wrap}
+.seg button{border:1px solid var(--line);background:var(--panel);border-radius:99px;padding:3px 12px;cursor:pointer;font-size:.86rem}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+
+.trbar{display:flex;gap:6px;align-items:center;flex-wrap:wrap;margin-bottom:10px;font-size:.85rem;color:var(--muted)}
+.trbar input[type=search]{flex:1;min-width:150px;padding:7px 10px;border:1px solid var(--line);border-radius:8px;background:var(--panel);color:var(--ink);font:inherit}
+.trbar button{border:1px solid var(--line);background:var(--panel);border-radius:8px;padding:4px 10px;cursor:pointer}
+.trbar label{display:flex;gap:4px;align-items:center;cursor:pointer;white-space:nowrap}
+.trbar select{padding:5px 8px;font-size:.85rem}
+#trBody{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:6px 12px}
+.trh{font-weight:700;font-size:.92rem;padding:12px 6px 4px;border-bottom:2px solid var(--line);scroll-margin-top:60px}
+.tp{display:flex;gap:10px;align-items:flex-start;padding:7px 6px;border-bottom:1px solid var(--line);line-height:1.75;scroll-margin-top:60px;border-radius:6px;transition:background .3s}
+.tp.now{background:var(--now)}
+.tp.flash{outline:2px solid var(--accent)}
+.tp .tx{flex:1;min-width:0;font-size:.95rem}
+mark{background:#ffe27a;color:#222;border-radius:3px;padding:0 1px}
+mark.cur{background:#ff9d3d}
+
+.results{list-style:none;margin:0;padding:0}
+.results li{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:10px 14px;margin-bottom:8px}
+.results .src{font-size:.78rem;color:var(--muted);margin-bottom:2px}
+.results .tx{font-size:.95rem}
+.results .acts{display:flex;gap:8px;align-items:center;margin-top:6px;flex-wrap:wrap}
+.results .ctx{border:1px solid var(--line);background:var(--panel);border-radius:99px;padding:0 10px;font-size:.8rem;cursor:pointer}
+.more{text-align:center;padding:10px}
+.more button{border:1px solid var(--line);background:var(--panel);border-radius:99px;padding:6px 16px;cursor:pointer}
+.empty{color:var(--muted);padding:20px 0}
+.caveat{background:var(--chip);border-radius:10px;padding:10px 14px;font-size:.85rem;color:var(--muted);margin-top:14px}
+footer{color:var(--muted);font-size:.8rem;border-top:1px solid var(--line);padding:16px 0 70px}
+.hide{display:none!important}
+
+@media (max-width:900px){
+  .layout{grid-template-columns:minmax(0,1fr);gap:0}
+  .left{display:contents}
+  .player-sticky{position:sticky;top:0;z-index:5;margin:0 -16px;background:#000}
+  .player{border-radius:0}
+  .tabs{top:calc(100vw * 9 / 16)}
+  .sess,.tp,.trh{scroll-margin-top:calc(100vw * 9 / 16 + 56px)}
+  header h1{font-size:1.2rem}
+  .toolbar select{flex:1 1 30%;min-width:0}
+  .cur-panel{order:5}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1 id="h1">2026 台灣社區整合照顧研討會｜逐字稿與重點筆記</h1>
+    <p>台灣社會福利總盟主辦，2026/11/14–15（福華文教會館＋線上直播）。點任何時間標籤，影片就跳到那一段。</p>
+  </header>
+
+  <div class="toolbar">
+    <div class="search"><input id="q" type="search" placeholder="搜尋逐字稿與重點：在宅急症、復健病房、出院準備、重症兒、居家醫療…" aria-label="搜尋"></div>
+    <select id="fDay" aria-label="日期"><option value="">兩天全部</option></select>
+    <select id="fKind" aria-label="內容類型"><option value="">全部類型</option></select>
+    <select id="fTag" aria-label="主題分類"><option value="">全部主題</option></select>
+    <select id="fOrg" aria-label="單位類型"><option value="">全部單位</option></select>
+    <select id="fSess" aria-label="講者場次"><option value="">全部講者／場次</option></select>
+  </div>
+  <div class="fnote" id="fnote"></div>
+
+  <section id="searchView" class="hide" aria-live="polite">
+    <div class="seg" id="scope">
+      <button data-s="all" aria-pressed="true">全部</button>
+      <button data-s="notes" aria-pressed="false">只看重點筆記</button>
+      <button data-s="tr" aria-pressed="false" data-tr>只看逐字稿</button>
+    </div>
+    <h2 id="searchTitle" style="font-size:1.02rem;margin:4px 0 10px"></h2>
+    <ul class="results" id="results"></ul>
+  </section>
+
+  <nav class="days" id="days" aria-label="選擇日期"></nav>
+
+  <main class="layout" id="mainView">
+    <div class="left">
+      <div class="player-sticky"><div class="player"><div id="yt"></div></div></div>
+      <div class="nowbar"><span id="nowT">—</span><a id="ytLink" class="yt" target="_blank" rel="noopener">在 YouTube 開啟</a></div>
+      <div class="panel cur cur-panel" id="cur"></div>
+    </div>
+
+    <div class="right">
+      <div class="tabs" role="tablist">
+        <button role="tab" data-tab="tl" aria-selected="true">議程時間軸</button>
+        <button role="tab" data-tab="pts" aria-selected="false">重點總覽</button>
+        <button role="tab" data-tab="pol" aria-selected="false">政策方向</button>
+        <button role="tab" data-tab="str" aria-selected="false">可學習策略</button>
+        <button role="tab" data-tab="tr" aria-selected="false" data-tr>逐字稿</button>
+      </div>
+      <div id="tl"></div>
+      <div id="pts" class="hide"></div>
+      <div id="pol" class="hide"></div>
+      <div id="str" class="hide"></div>
+      <div id="tr" class="hide">
+        <div class="trbar">
+          <input id="trq" type="search" placeholder="在當天逐字稿中尋找…" aria-label="在逐字稿中尋找">
+          <span id="trCount"></span>
+          <button id="trPrev" title="上一個">↑</button><button id="trNext" title="下一個">↓</button>
+          <select id="trJump" aria-label="跳到場次"></select>
+          <label><input type="checkbox" id="follow" checked> 跟著播放捲動</label>
+        </div>
+        <div id="trBody"></div>
+      </div>
+      <div class="caveat" id="caveat">逐字稿由語音辨識自動產生，人名、單位、數字可能有誤；重點筆記為整理改寫，引用前請對照影片或各講者講義原文。</div>
+    </div>
+  </main>
+
+  <footer>
+    資料來源：台灣社會福利總盟「2026 台灣社區整合照顧研討會」YouTube 直播與公開講義。影片與講義版權屬主辦單位與各講者所有，本站僅以 YouTube 官方嵌入播放，供學習參考。
+  </footer>
+</div>
+
+<script src="data.js?v=4"></script>
+<script src="transcript.js?v=4" onerror="window.TRANSCRIPTS=null"></script>
+<script src="app.js?v=4"></script>
+<script src="https://www.youtube.com/iframe_api" async></script>
+<script src="https://mattsue1003.github.io/oth-report-button/report.js" data-site="社區整合照顧研討會筆記" defer></script>
+<script>
+window.addEventListener('load',function(){
+  (function shrink(n){
+    var host=document.querySelector('[data-oth-report]');
+    if(!host||!host.shadowRoot){if(n<20)setTimeout(function(){shrink(n+1)},300);return}
+    var s=document.createElement('style');
+    s.textContent='.fab{left:14px!important;right:auto!important;bottom:14px!important;width:34px!important;height:34px!important;min-width:0!important;padding:0!important;gap:0!important;justify-content:center!important;border-radius:50%!important;overflow:hidden!important;font-size:0!important;white-space:nowrap!important;opacity:.75}.fab svg{width:16px!important;height:16px!important;flex:none;margin:0!important}@media (hover:hover){.fab:hover{width:auto!important;padding:0 14px!important;gap:6px!important;font-size:13px!important;border-radius:99px!important;opacity:1}}';
+    host.shadowRoot.appendChild(s);
+  })(0);
+});
+</script>
+</body>
+</html>
